@@ -27,7 +27,7 @@ urls_GH=['MsO5TcT','nrfXdb6','fl5a8H','JvPIhd6','wt0nn5','lwF59F','32NMGr','dfa2
 firefox_options_binary = "/root/EXTRA/firefox-49.0b9/firefox/firefox"
 
 new_driver_path = '/usr/bin/geckodriver13'
-new_binary_path = '/root/EXTRA/firefox/firefox'
+new_binary_path = '/root/EXTRAT/firefox/firefox'
 
 
 
