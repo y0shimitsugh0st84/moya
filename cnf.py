@@ -9,7 +9,7 @@
 #visibility="visible=1"
 #
 #p_vpn_g="/root/OUOIO/project_04_a_ads/NORD_CONFIG/ovpn_tcp/"
-p_vpn_g="/root/OUOIO/project_04_a_ads/yserverListTCP/"
+p_vpn_g="/root/install_add/moya/yserverListTCP/"
 ##  DEAD_CONFIG_TCP dead config path yserverListTCP
 p_vpn_dead="/root/OUOIO/project_02/yserverListTCP/"
 #p_vpn_dead="/root/OUOIO/project_02/NORD_CONFIG/DEAD_CONFIG_TCP/"
