@@ -17,7 +17,7 @@ user_agent_list = cnf.user_agent_list
 urls_GH=cnf.urls_GH
 
 
-ads_links=['https://elated-nobel-943d26.netlify.app','https://flamboyant-kalam-54b358.netlify.app','https://serene-keller-a6f116.netlify.app']
+ads_links=['https://determined-ptolemy-83a410.netlify.app/','https://elated-nobel-943d26.netlify.app','https://flamboyant-kalam-54b358.netlify.app','https://serene-keller-a6f116.netlify.app']
 
 
 
@@ -33,7 +33,7 @@ def lets_go ():
 	try:
 		print("starting")
 		my_vpn()
-		display= Display(visible=1, size=(860, 860), use_xauth=False).start()
+		display= Display(visible=0, size=(860, 860), use_xauth=False).start()
 
 		change_time_zon()
 
