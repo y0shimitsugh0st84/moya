@@ -150,7 +150,7 @@ def starter():
 	url_booyah=get_url()
 	print(url_booyah)
 	print("Starting stage 01 : ",end='')
-	display = Display(visible=1, size=(widee,higo)).start()
+	display = Display(visible=0, size=(widee,higo)).start()
 	print("display OK")
 	try:
 		driver=build_driver()
