@@ -15,7 +15,7 @@ import random,datetime,string , os ,time ,subprocess , sys , requests
 from selenium.webdriver import ActionChains
 #os.environ['DISPLAY'] = ':0'
 
-user_agent_list = cnf.user_agent_list
+#user_agent_list = cnf.user_agent_list
 urls_GH=cnf.urls_GH
 
 
@@ -57,8 +57,8 @@ print(display[0]+"   "+display[1])
 ##################################################################
 
 
-higo=int(display[0])
-widee=int(display[1])
+higo=int(display[1])
+widee=int(display[0])
 moz_wid="--width="+str(widee)
 moz_hig="--height="+str(higo)
 
@@ -72,7 +72,7 @@ def build_driver():
 		new_driver_path = cnf.new_driver_path
 		new_binary_path = cnf.new_binary_path
 		serv = Service(new_driver_path)
-		user_agent = random.choice(user_agent_list)
+		user_agent = cnf.user_agent
 		ops = Firefox_Options()
 		ops.add_argument(moz_wid)
 		ops.add_argument(moz_hig)

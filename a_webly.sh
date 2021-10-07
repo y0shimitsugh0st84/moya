@@ -7,5 +7,5 @@ trap "echo oh;exit" SIGTERM SIGINT
 while true
 do
 	echo "NEW ..............."
-	python3 webly.py
+	timeout 4m python3 webly.py
 done
