@@ -20345,7 +20345,8 @@ user_agent_list = [
 ]
 
 
-p_vpn_g="/root/VVN/yserverListTCP/"#p_vpn_g="/root/install_add/moya/yserverListTCP/"
+#p_vpn_g="/root/VVN/yserverListTCP/"#
+p_vpn_g="/root/moya/yserverListTCP/"
 #/root/VVN/yserverListTCP/
 p_vpn_dead="/root/OUOIO/project_02/yserverListTCP/"
 #######################  DISPLAY ##############################
