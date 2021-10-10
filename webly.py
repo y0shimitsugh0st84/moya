@@ -3,10 +3,7 @@ from pyvirtualdisplay import Display
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-
 from selenium.webdriver.firefox.service import Service
-
-
 from selenium.webdriver.firefox.options import Options as options
 from selenium.webdriver.firefox.options import Options as Firefox_Options
 from selenium.webdriver.support.ui import WebDriverWait
