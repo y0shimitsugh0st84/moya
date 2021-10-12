@@ -298,13 +298,13 @@ def check_web(driver ):
 	driver.maximize_window()
 	try:
 		driver.get("https://serene-keller-a6f116.netlify.app/index.html")
-		time.sleep(10)
+		time.sleep(20)
 		driver.execute_script("window.open('');")
 		time.sleep(1)
 		driver.switch_to.window(driver.window_handles[1])
 		time.sleep(1)
 		driver.get("https://serene-keller-a6f116.netlify.app/index.html")
-		time.sleep(10)
+		time.sleep(20)
 		
 		driver.execute_script("window.open('');")
 		driver.switch_to.window(driver.window_handles[2])
@@ -321,13 +321,13 @@ def check_web(driver ):
 		#print("OPEN URL  A-ADS CHECK .....",end='')
 		print("MY BTTTC !!!!!!", end='')
 		driver.get("https://serene-keller-a6f116.netlify.app/index.html")
-		time.sleep(3)
+		time.sleep(8)
 		maain_button=WebDriverWait(driver, 19).until(EC.presence_of_element_located((By.ID, 'rightbox')))
 		time.sleep(3)
 		#maain_button.send_keys(Keys.RETURN)
 		time.sleep(5)
 		maain_button.click()
-		time.sleep(30)
+		time.sleep(40)
 		print("OK !!!!!")
 		#https://app.netlify.com/sites/flamboyant-kalam-54b358
 	except Exception as a:
