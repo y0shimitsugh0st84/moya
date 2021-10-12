@@ -282,7 +282,7 @@ def starting_tasks():
 
 		serv,ops=build_driver()
 		#build_driver()###### BUILDING DRIVER
-		display = Display(visible=1, size=(width,height), use_xauth=False).start()
+		display = Display(visible=0, size=(width,height), use_xauth=False).start()
 		lets_play(serv,ops)
 		display.stop()
 		time.sleep(2)
