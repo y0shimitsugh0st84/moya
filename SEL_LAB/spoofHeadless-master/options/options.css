@@ -1,0 +1,123 @@
+.settings {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+.settings.displayDescriptions {
+	table-layout: fixed;
+}
+.settings * {
+	vertical-align: top;
+}
+
+.settings .settingRow.hidden {
+	display: none;
+}
+
+.settings .settingRow .content {
+	overflow: visible;
+	padding: 0.5em 0;
+	border-top: 1px solid #c1c1c1;
+	position: relative;
+}
+
+.settings.hideDescriptions .settingRow .info {
+	margin: 0 0.5em;
+	border-radius: 100%;
+	background-color: gray;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+	text-align: center;
+	line-height: 1em;
+	font-weight: bold;
+	color: white;
+}
+.settings.hideDescriptions .settingRow .info::after {
+	content: "i";
+}
+.settings.hideDescriptions .settingRow .info .description {
+	display: none;
+}
+.settings.hideDescriptions .settingRow .info:hover .description {
+	display: block;
+	position: absolute;
+	box-sizing: border-box;
+	top: 90%;
+	left: 5%;
+	max-width: 90%;
+	z-index: 10;
+	border: 1px solid black;
+	color: black;
+	background-color: lightgrey;
+	padding: 0.5em;
+	text-align: left;
+	font-weight: normal;
+}
+.settings.displayDescriptions .settingRow .description {
+	color: graytext;
+	margin-inline-start: 2em;
+	white-space: pre-wrap;
+}
+input[type=""], input[type="text"], input[type="number"], select {
+	width: 100%;
+	box-sizing: border-box;
+}
+*.multiple2 {
+	width: 50% !important;
+}
+*.multiple3 {
+	width: 33% !important;
+}
+*.multiple4 {
+	width: 25% !important;
+}
+
+.urlValues {
+	padding-right: 1em;
+	position: relative;
+}
+.urlValues.collapsed table {
+	display: none;
+}
+.urlValues.expanded table {
+	display: block;
+	margin: 0.5em auto;
+}
+.urlValues table caption {
+	text-align: center;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.urlValues table td {
+	vertical-align: middle;
+}
+.urlValues table .reset, .urlValues table .add, .urlValues table .url {
+	cursor: pointer;
+	margin: 0 0.2em;
+}
+.urlValues table .url {
+	min-width: 4em;
+}
+.urlValues table .urlInput {
+	padding: 1px;
+	margin: -1px;
+}
+.urlValues .collapser {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	width: 1em;
+	height: 1em;
+	cursor: pointer;
+}
+.urlValues.collapsed .collapser::after {
+	content: "\25B6";
+}
+.urlValues.expanded .collapser::after {
+	content: "\25BC";
+}
+.urlValues .notSpecifiedForUrl {
+	opacity: 0.5;
+}

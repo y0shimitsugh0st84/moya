@@ -1,0 +1,74 @@
+{
+	"name": "CanvasBlocker",
+	"description": "__MSG_addon_description__",
+	"version": "0.4.4b",
+	"icons": {
+		"48": "icons/icon.svg",
+		"96": "icons/icon.svg"
+	},
+	"background": {
+		"scripts": [
+			"lib/require.js",
+			"lib/settingDefinitions.js",
+			"lib/settings.js",
+			"lib/logging.js",
+			"lib/lists.js",
+			"lib/persistentRndStorage.js",
+			"lib/main.js"
+		]
+	},
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"all_frames": true,
+		"run_at": "document_start",
+		"js": [
+			"lib/require.js",
+			"lib/settingDefinitions.js",
+			"lib/settings.js",
+			
+			"lib/logging.js",
+			
+			"lib/colorStatistics.js",
+			"lib/webgl.js",
+			"lib/modifiedAPI.js",
+			"lib/randomSupplies.js",
+			"lib/intercept.js",
+			
+			"lib/callingStack.js",
+			"lib/askForPermission.js",
+			
+			"lib/lists.js",
+			"lib/check.js",
+			
+			"lib/frame.js"
+		]
+	}],
+	"options_ui": {
+		"browser_style": true,
+		"page": "options/options.html"
+	},
+	"page_action": {
+		"browser_style": true,
+		"default_icon": {
+			"19": "icons/pageAction-printed.svg",
+			"38": "icons/pageAction-printed.svg"
+		},
+		"default_popup": "pageAction/pageAction.html"
+	},
+	"author": "Korbinian Kapsner",
+	"permissions": [
+		"<all_urls>",
+		"storage",
+		"tabs",
+		"activeTab"
+	],
+	
+	"applications": {
+		"gecko": {
+			"id": "CanvasBlocker@kkapsner.de",
+			"strict_min_version": "52.0"
+		}
+	},
+	"default_locale": "en",
+	"manifest_version": 2
+}

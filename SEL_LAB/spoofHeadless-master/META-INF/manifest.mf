@@ -1,0 +1,277 @@
+Manifest-Version: 1.0
+
+Name: LICENSE.txt
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: z9fWbShkw4Iy7B7yCyfBOg==
+SHA1-Digest: nPCXEg09nuoOl5DX1EroDmIxo1o=
+
+Name: manifest.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KsCqDr6kTdXTQgK+0mWwgw==
+SHA1-Digest: geyTqJpocxkNWsjUUPvc/+GPd5I=
+
+Name: README.md
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: y1uzkokXfsoLX905I0t0PQ==
+SHA1-Digest: GzQ/bkwnH39IGMFo97KxAlAePag=
+
+Name: releaseNotes.txt
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EysQm4z+FhTXF+jcEzh+Bg==
+SHA1-Digest: lkYVa+DKExk4M3S0LEK1zAv4wK8=
+
+Name: _locales/de/messages.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EhPfBIfq/CGiosx/M+jk7w==
+SHA1-Digest: DABALmCLZ1omGWG7wD5ma5kdTOk=
+
+Name: _locales/en/messages.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: j/CE7KZ/fNPwsuhBXRgKuQ==
+SHA1-Digest: oQAaEeLRcFvZUW8tEQJF9uLFfBI=
+
+Name: icons/icon.svg
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MgJKvKnyLjIqSWn7lrVZgg==
+SHA1-Digest: msaWHlNq0TA+OaiqKh5TitZnHhg=
+
+Name: icons/pageAction-disableNotifications.svg
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WOz3Cm2KaDX9E/QIo/6JGg==
+SHA1-Digest: 0PE+PThiKk42bX8EhPNC1iHaK3w=
+
+Name: icons/pageAction-displayCallingStack.svg
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DmfAEVzmeufQnmlAzNeZ/w==
+SHA1-Digest: Y1NCajkpD+SSg8IAmIE1AuAQOx8=
+
+Name: icons/pageAction-displayFullURL.svg
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: O/9jeuNA3b+S8bHTfKKUcQ==
+SHA1-Digest: r/EVhBJILa6DaVsiqX0f2vqsolc=
+
+Name: icons/pageAction-ignorelistDomain.svg
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nlGQlU+hphdctE8WpxvSqA==
+SHA1-Digest: 4EenwNvmValAD4gp6f75bmUsIU4=
+
+Name: icons/pageAction-printed.svg
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 13f/n3RkmNdXNcyYbAJEkw==
+SHA1-Digest: P8bxdF4FgCpNNAE4XBBcennswpU=
+
+Name: icons/pageAction-whitelistDomain.svg
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZOcNf7gqjPqs97DS6YRD6A==
+SHA1-Digest: zGR4VUNHIGO/Jq27544a/Wj5H4M=
+
+Name: icons/pageAction-whitelistURL.svg
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /v/qgBVVmUDIRnAxD54aBg==
+SHA1-Digest: fskInp1AJh5YRJ+o/1mscGL2RS0=
+
+Name: lib/askForPermission.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JXohV9Ty4KD1XNx1dkYm/A==
+SHA1-Digest: 1rkMeA43bzpjG90S3uv4Jn6XEk0=
+
+Name: lib/callingStack.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hUXls1+ny4IsOzDPLs8MnQ==
+SHA1-Digest: vJuus28pWb59uz5GS5GmlTvex9w=
+
+Name: lib/check.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9Q58AJMeeisOrLoGKk0pOA==
+SHA1-Digest: OLJLM4CJE2MDaBww3d8e7XnvdPU=
+
+Name: lib/colorStatistics.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2zISb3wYFJ5eAimR9AZtHQ==
+SHA1-Digest: QFjBHkz5D+SFohs4B9kbKpFCgws=
+
+Name: lib/frame.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ySHIg1XIT63IDNcq936eiA==
+SHA1-Digest: wKF1By44nwhzLM4rpbNTwQDWIV4=
+
+Name: lib/intercept.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OL8a1CBYWaNnMC9JVzZ15g==
+SHA1-Digest: 1lAdz6oVV0YG63FtNGITyqgfFaI=
+
+Name: lib/lists.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: i1k/lY7kYbNwii5Y+MCYYw==
+SHA1-Digest: bS5N/ToBnfKr5m01h3QeZP54oiM=
+
+Name: lib/logging.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yFOlFiDv/xrwqHpIHAYZ8g==
+SHA1-Digest: 60HWPxDXUMKV68LwYHrPZIIp8As=
+
+Name: lib/main.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Y24Fwdc6LXdVdU9DIU9BnA==
+SHA1-Digest: hbQLUVNQ9HTiI65qRFkE0gYDKyE=
+
+Name: lib/modifiedAPI.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Ahwh0fIl2DAJBADgz+GU+g==
+SHA1-Digest: X+RryIER5Rl0IEZGN4JfxDRiOdE=
+
+Name: lib/persistentRndStorage.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Eo1tVY1z0KoDuRgCRbGnFQ==
+SHA1-Digest: eF4+AanmfMRVfwDDF5L2G79WoHw=
+
+Name: lib/randomSupplies.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wgeufVvPaRjFmwAnwu49bw==
+SHA1-Digest: Zq/rMZU1B/QN1XwICQgDv7ZormA=
+
+Name: lib/require.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: akoyV4DcCXlVSA8+92kUHw==
+SHA1-Digest: gFFBFCDwODqlTVJMv2WuQ3NBRHs=
+
+Name: lib/settingDefinitions.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fLnez3icUvIok87/ZHX2MQ==
+SHA1-Digest: G9uujXwfr9gvafMwwgDYliIG/ME=
+
+Name: lib/settings.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oxhSPWUYlngJHhB9rR+I+A==
+SHA1-Digest: /BrqiDMcK+9hj2n2mPEUvaRZoRE=
+
+Name: lib/webgl.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XgQKrsdDDUoitg9MQSbJ+g==
+SHA1-Digest: xo0q05ozUMcnrUeDXAYR/zTYWoY=
+
+Name: options/export.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: je7tJ7cEAaKy2+d10MnbDw==
+SHA1-Digest: HbVsl8dJsDK1vmF2scMRfGwpZrU=
+
+Name: options/export.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9HoYycnnFL3LEX8dW5ZgXA==
+SHA1-Digest: foYZR2P8obIWef3AoLb/Se0H6pU=
+
+Name: options/export.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Wxq/uIu2CSw71PRfsMDAiQ==
+SHA1-Digest: RdOm9eE967NrbfEF3zjr4Bntv0c=
+
+Name: options/options.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Nx0AtUDDdj3fKxKnuI0i8A==
+SHA1-Digest: S1Yjplg/Ro2kIq1RdtfLpsV95zg=
+
+Name: options/options.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BmuZc5JvEjLo4pJbbiEE6w==
+SHA1-Digest: 68csoGHZQAqYso8FcwBoqZ7moJw=
+
+Name: options/options.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BH94XrPCCcFiBv2d28pawg==
+SHA1-Digest: L0Fd9ZH6Wf9QvBCoPwKws8Az+HA=
+
+Name: options/optionsGui.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Mso3zvnhbrheRVQNfweLCA==
+SHA1-Digest: hu3kFJ7LRx70CUtBzDeM3bgdjt4=
+
+Name: options/settingsDisplay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dKakdIGXNEDQmeRLuqqehw==
+SHA1-Digest: yMmXqYje4z2faujn/r09mmiYULc=
+
+Name: pageAction/domainNotification.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 09bJf+cMyA6OgIYSK9+llw==
+SHA1-Digest: vWVJ8wmUxbKsFTNzh+2n1LWyhGQ=
+
+Name: pageAction/gui.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SCe211OcDSWF/G5hB2jVUQ==
+SHA1-Digest: t3fvEIYaF3HOboefwpK0kk3AlLs=
+
+Name: pageAction/notification.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +guQ7qprpN/J8FIGt0rETg==
+SHA1-Digest: kBgadPEh8lfAMyWJoQ+gPhgFmcg=
+
+Name: pageAction/pageAction.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Qghi77Y7KQFJXRkjJhQb1Q==
+SHA1-Digest: mlWX0WGz7qN8I41jQfygcGUl/B0=
+
+Name: pageAction/pageAction.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ae5QknCKxZox7xVNjGuOlA==
+SHA1-Digest: 9gylVyQMsY6BjmtPK2ELe7EVwxY=
+
+Name: pageAction/pageAction.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ap5ISAaGZ4aMA4qUukCk5A==
+SHA1-Digest: Knck2gr0Btx8umJi3DUxWbPSi2I=
+
+Name: test/detectionTest.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: w1kAOcpgCN8GZeHLGWM16w==
+SHA1-Digest: kvqsOPSw6l3Qr+RrUOMOjnPSgC8=
+
+Name: test/detectionTest.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FZrZKAvWhjbi2KRohTh5ww==
+SHA1-Digest: GJyMuMhzssgFLe6julvaA0pnyxI=
+
+Name: test/firstPossibleCall.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0V38zzl4RRIlZn6SyWyz5A==
+SHA1-Digest: gKzydWEvBg7uwosQYMoWg5wisV8=
+
+Name: test/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: T08Q13iiAMIlsSuezjg4gg==
+SHA1-Digest: l5XMtUPFTUKJTJrgKfwUdshl14c=
+
+Name: test/performanceTest.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 92qgPe0WCKLQFgODIVPbmg==
+SHA1-Digest: WVkitsXSmFGo0bCuZHljhB2MPfE=
+
+Name: test/performanceTest.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eKwIA1kR2sJ9mrsI0nfZig==
+SHA1-Digest: qIgn3hn4YZjmoef5404fE58b6Jk=
+
+Name: test/settingsLoading.php
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ocdbegg/Sjw5UnofRdSKVA==
+SHA1-Digest: L0HyGnLSBAtbHAKy2P8Nnpfsplw=
+
+Name: test/test.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xd6dhczToMim2SUo4qv/+g==
+SHA1-Digest: ETgAzdOBspBZlbWQ00+n0qCgzkU=
+
+Name: test/test.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QyYVC5G5vgQOqelc1/A1aw==
+SHA1-Digest: p5XG7l0sITkLowtEhS/10SxWiBA=
+
+Name: test/webGL-Test.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: z+byu4eBe8eeb55GP04t9g==
+SHA1-Digest: x6sGN18RzvxTwJFL9urOWhfEbvE=
+
+Name: test/webGL-Test.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VNWZPTibJrvjpNQlAdrxAw==
+SHA1-Digest: +vtOtVjAdGxvF+Pboe3h14lzX/4=
+

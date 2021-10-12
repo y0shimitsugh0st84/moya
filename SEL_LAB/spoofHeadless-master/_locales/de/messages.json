@@ -1,0 +1,560 @@
+{
+	"addon_title": {
+		"message": "CanvasBlocker",
+		"description": ""
+	},
+	"addon_description": {
+		"message": "Ändert die JS-API zum Ändern von <canvas> um Canvas-Fingerprinting zu verhindern.",
+		"description": ""
+	},
+	
+	"more": {
+		"message": "mehr",
+		"description": ""
+	},
+	"less": {
+		"message": "weniger",
+		"description": ""
+	},
+	
+	"displayAdvancedSettings_title": {
+		"message": "Expertenmodus",
+		"description": ""
+	},
+	"displayAdvancedSettings_description": {
+		"message": "Zeigt weitere Einstellungsmöglichkeiten an.",
+		"description": ""
+	},
+	
+	"displayDescriptions_title": {
+		"message": "Beschreibungen anzeigen",
+		"description": ""
+	},
+	"displayDescriptions_description": {
+		"message": "Zeigt die Beschreibungen der Einstellungen an.",
+		"description": ""
+	},
+	
+	"allowPDFCanvas_description": {
+		"message": "Die native pdf.js verwendet <canvas> um den Inhalt von PDFs anzuzeigen. Wenn viele Nachfragedialoge erscheinen oder die PDF-Ansicht nicht funktioniert, müssen diese erlaubt werden.",
+		"description": ""
+	},
+	"allowPDFCanvas_title": {
+		"message": "<canvas> in PDFs erlauben",
+		"description": ""
+	},
+	"askForInvisiblePermission": {
+		"message": "Wollen Sie unsichtbare <canvas> erlauben?",
+		"description": ""
+	},
+	"askForInvisibleInputPermission": {
+		"message": "Wollen Sie das Schreiben in ein unsichtbares <canvas> erlauben?",
+		"description": ""
+	},
+	"askForInvisibleReadoutPermission": {
+		"message": "Wollen Sie das Auslesen von unsichtbaren <canvas> erlauben?",
+		"description": ""
+	},
+	"askForPermission": {
+		"message": "Wollen Sie <canvas> erlauben?",
+		"description": ""
+	},
+	"askForInputPermission": {
+		"message": "Wollen Sie das Schreiben in ein <canvas> erlauben?",
+		"description": ""
+	},
+	"askForReadoutPermission": {
+		"message": "Wollen Sie das Auslesen von <canvas> erlauben?",
+		"description": ""
+	},
+	"askForVisiblePermission": {
+		"message": "Wollen Sie das rot umrandete <canvas> erlauben?",
+		"description": ""
+	},
+	"askForVisibleInputPermission": {
+		"message": "Wollen Sie das Schreiben in das rot umrandete <canvas> erlauben?",
+		"description": ""
+	},
+	"askForVisibleReadoutPermission": {
+		"message": "Wollen Sie das Auslesen des rot umrandeten <canvas> erlauben?",
+		"description": ""
+	},
+	"askOnlyOnce_title": {
+		"message": "Nur einmal nachfragen",
+		"description": ""
+	},
+	"askOnlyOnce_description": {
+		"message": "Wenn der Blockiermodus des Canvas Blockers auf \"um Erlaubnis fragen\" oder \"bei Auslese-API um Erlaubnis fragen\" gesetzt ist, erscheint jedes Mal ein Abfragedialog wenn eine Seite versucht, die (Auslese-)API aufzurufen. Diese Einstellung versucht diese Abfrage nur einmal pro Seite anzuzeigen, unabhängig davon wie oft die API aufgerufen wird. Es können trotzdem mehrere Dialoge pro Seite erscheinen.\nNein: es wird jedes mal gefragt\nIndividuell: jeder API-Typ (Context, Eingabe, Auslese) wird separat abgefragt\nKombiniert: alle API-Typen werden zusammen abgefragt",
+		"description": ""
+	},
+	"askOnlyOnce_options.no": {
+		"message": "nein",
+		"description": ""
+	},
+	"askOnlyOnce_options.individual": {
+		"message": "individuell",
+		"description": ""
+	},
+	"askOnlyOnce_options.combined": {
+		"message": "kombiniert",
+		"description": ""
+	},
+	"askDenyMode_title":{
+		"message": "Nachfrageverweigerungsmodus",
+		"description": ""
+	},
+	"askDenyMode_description":{
+		"message": "Welcher Modus soll gewählt werden, wenn die Erlaubnis verweigert wird.",
+		"description": ""
+	},
+	"askDenyMode_options.block":{
+		"message": "blockieren",
+		"description": ""
+	},
+	"askDenyMode_options.fake":{
+		"message": "vortäuschen",
+		"description": ""
+	},
+	"blackList_description": {
+		"message": "Domänen oder URLs, die die <canvas>-API niemals verwenden dürfen. Mehrere Einträge müssen durch ein Komma getrennt werden.",
+		"description": ""
+	},
+	"blackList_title": {
+		"message": "Blacklist",
+		"description": ""
+	},
+	
+	"blockMode_description": {
+		"message": "",
+		"description": ""
+	},
+	"blockMode_options.allowEverything": {
+		"message": "alles erlauben",
+		"description": ""
+	},
+	"blockMode_options.block": {
+		"message": "nur Einträge der Whitelist erlauben",
+		"description": ""
+	},
+	"blockMode_options.ask": {
+		"message": "um Erlaubnis fragen",
+		"description": ""
+	},
+	"blockMode_options.askReadout": {
+		"message": "bei Auslese-API um Erlaubnis fragen",
+		"description": ""
+	},
+	"blockMode_options.blockEverything": {
+		"message": "alles blockieren",
+		"description": ""
+	},
+	"blockMode_options.allow": {
+		"message": "nur Einträge der Blacklist blockieren",
+		"description": ""
+	},
+	"blockMode_options.blockReadout": {
+		"message": "Auslese-API blockieren",
+		"description": ""
+	},
+	"blockMode_options.fakeReadout": {
+		"message": "Auslese-API vortäuschen",
+		"description": ""
+	},
+	"blockMode_options.fakeInput": {
+		"message": "Bei Ausgabe vortäuschen",
+		"description": ""
+	},
+	"blockMode_title": {
+		"message": "Blockiermodus",
+		"description": ""
+	},
+
+	"urlSettings_title": {
+		"message": "Seitenspezifische Einstellungen",
+		"description": ""
+	},
+	"urlSettings_description": {
+		"message": "",
+		"description": ""
+	},
+	
+	"url_title": {
+		"message": "URL",
+		"description": ""
+	},
+	"url_description": {
+		"message": "",
+		"description": ""
+	},
+	"inputURL": {
+		"message": "Input domain or URL RegExp:",
+		"description": ""
+	},
+	
+	"minFakeSize_description": {
+		"message": "Canvas, die eine kleiner oder gleich große Fläche als die hier angegebene Zahl haben, werden nicht vorgetäuscht. Dies ist ein Parameter, der die Detektion des Addons erschweren soll.\nACHTUNG: Dies verringert die Sicherheit des Addons. Deswegen wird stark empfohlen, diesen Wert nicht über 100 zu setzen.",
+		"description": ""
+	},
+	"minFakeSize_title": {
+		"message": "Minimale Vortäuschgröße",
+		"description": ""
+	},
+	
+	"maxFakeSize_description": {
+		"message": "Canvas, die eine größere Fläche als die hier angegebene Zahl haben, werden nicht vorgetäuscht. (Null eingeben, um es zu deaktivieren.) Dies ist ein Leistungsparameter, der das Einfrieren des Browsers verringern kann und der an die Rechenleistung des Gerätes angepasst sein soll.\nACHTUNG: Dies verringert die Sicherheit des Addons. Deswegen wird stark empfohlen, diesen Wert nicht unter 1 000 000 zu setzen.",
+		"description": ""
+	},
+	"maxFakeSize_title": {
+		"message": "Maximale Vortäuschgröße",
+		"description": ""
+	},
+	
+	"rng_description": {
+		"message": "nichts (komplett weiß): es wird immer ein weißes Bild zurückgegeben. Hierbei sollte die Option \"Alpha-Kanal auch vortäuchen\" aktiviert werden. ACHTUNG: Nicht im Modus \"Bei Ausgabe vortäuschen\" verwenden.\nnicht persistent: die Zufallszahlen werden bei jeder Vortäuschaktion neu bestimmt.\nkonstant: innerhalb einer Webseite wird eine Farbe immer gleich verändert.\npersistent: für jede Domain werden die Zufallszahlen nur einmal bestimmt.",
+		"description": ""
+	},
+	"rng_options.persistent": {
+		"message": "persistent",
+		"description": ""
+	},
+	"rng_options.constant": {
+		"message": "konstant",
+		"description": ""
+	},
+	"rng_options.nonPersistent": {
+		"message": "nicht persistent",
+		"description": ""
+	},
+	"rng_options.white": {
+		"message": "nichts (komplett weiß)",
+		"description": ""
+	},
+	"rng_title": {
+		"message": "Zufallszahlengenerator",
+		"description": ""
+	},
+
+	"persistentRndStorage_title": {
+		"message": "Persistenter Speicher",
+		"description": ""
+	},
+	"persistentRndStorage_description": {
+		"message": "Speichert die Informationen für den persistenten Zufallszahlengenerator über einen Neustart hinweg.",
+		"description": ""
+	},
+	
+	"storePersistentRnd_title": {
+		"message": "Persistente Daten speichern",
+		"description": ""
+	},
+	"storePersistentRnd_description": {
+		"message": "Ob Daten für den persistenten Zufallszahlengenerator gespeichert werden sollen. Ansonsten werden die Daten beim Beenden des Browsers verworfen.",
+		"description": ""
+	},
+	
+	"persistentRndClearInterval_title": {
+		"message": "Löschintervall der persistenten Daten",
+		"description": ""
+	},
+	"persistentRndClearInterval_description": {
+		"message": "Nach dem eingestellten Intervall werden die persistenten Daten automatisch gelöscht. (Null eingeben, um es zu deaktivieren.)",
+		"description": ""
+	},
+	"persistentRndClearIntervalUnit_options.seconds": {
+		"message": "Sekunden",
+		"description": ""
+	},
+	"persistentRndClearIntervalUnit_options.minutes": {
+		"message": "Minuten",
+		"description": ""
+	},
+	"persistentRndClearIntervalUnit_options.hours": {
+		"message": "Stunden",
+		"description": ""
+	},
+	"persistentRndClearIntervalUnit_options.days": {
+		"message": "Tage",
+		"description": ""
+	},
+	"persistentRndClearIntervalUnit_options.weeks": {
+		"message": "Wochen",
+		"description": ""
+	},
+	"persistentRndClearIntervalUnit_options.months": {
+		"message": "Monate",
+		"description": ""
+	},
+	"persistentRndClearIntervalUnit_options.years": {
+		"message": "Jahre",
+		"description": ""
+	},
+	
+	"clearPersistentRnd_title": {
+		"message": "Persistenten Speicher leeren",
+		"description": ""
+	},
+	"clearPersistentRnd_description": {
+		"message": "Löscht alle Daten für den persistenten Zufallszahlengenerator.",
+		"description": ""
+	},
+	"clearPersistentRnd_label": {
+		"message": "Leeren",
+		"description": ""
+	},
+	
+	"ignoreFrequentColors_title": {
+		"message": "Ignoriere die häufigsten Farben",
+		"description": ""
+	},
+	"ignoreFrequentColors_description": {
+		"message": "Anzahl der Farben, die pro Canvas nicht vorgetäuscht werden sollen. Dies ist ein Parameter, der die Detektion des Addons erschweren soll.\nACHTUNG: Dies kann die Geschwindigkeit des Addons beeinträchtigen, da für jedes Bild die Farbstatistik berechnet werden muss. Außerdem kann es die Sicherheit des Addons verringern, wenn der Wert zu hoch gestellt wird. Deswegen wird stark empfohlen, diesen Wert nicht über 3 zu setzen.",
+		"description": ""
+	},
+	
+	"minColors_title": {
+		"message": "Minimale Anzahl an Farben",
+		"description": ""
+	},
+	"minColors_description": {
+		"message": "Anzahl der Farben, die ein Canvas aufweisen muss, damit es vorgetäuscht wird. Dies ist ein Parameter, der die Detektion des Addons erschweren soll.\nACHTUNG: Dies kann die Sicherheit des Addons beeinträchtigen. Deswegen wird stark empfohlen, diesen Wert nicht über 10 zu setzen.",
+		"description": ""
+	},
+	
+	"fakeAlphaChannel_title": {
+		"message": "Alpha-Kanal auch vortäuschen",
+		"description": ""
+	},
+	"fakeAlphaChannel_description": {
+		"message": "Aktiviert das Vortäuschen des Alpha-Kanals (Transparenz).",
+		"description": ""
+	},
+	
+	"useCanvasCache_title": {
+		"message": "Zwischenspeicher für Canvas verwenden",
+		"description": ""
+	},
+	"useCanvasCache_description": {
+		"message": "Aktiviert den Canvas-Zwischenspeicher. Dies kann die Detektion des Addons verhindern und kann die Geschwindigkeit des Addons erhöhen, wenn kleine Canvas oft ausgelesen werden. Für große Canvas wird die Geschwindigkeit leider reduziert.",
+		"description": ""
+	},
+	
+	"disableNotifications": {
+		"message": "Benachrichtigungen deaktivieren",
+		"description": ""
+	},
+	"displayCallingStack": {
+		"message": "Aufrufestack anzeigen",
+		"description": ""
+	},
+	"displayFullURL": {
+		"message": "URL anzeigen",
+		"description": ""
+	},
+	"enableStackList_description": {
+		"message": "",
+		"description": ""
+	},
+	"enableStackList_title": {
+		"message": "Dateispezifische Whitelist verwenden",
+		"description": ""
+	},
+	
+	"preBlock": {
+		"message": "API auf {url} blockiert, weil die CanvasBlocker-Einstellungen nicht rechtzeitig geladen wurden.",
+		"description": ""
+	},
+	"fakedReadout": {
+		"message": "Auslese vorgetäuscht auf {url}",
+		"description": ""
+	},
+	"fakedInput": {
+		"message": "Bei Ausgabe vorgetäuscht auf {url}",
+		"description": ""
+	},
+	
+	"ignoreList_description": {
+		"message": "Domänen oder URLs, bei denen keine Benachrichtigungen angezeigt werden sollen. Mehrere Einträge müssen durch ein Komma getrennt werden.",
+		"description": ""
+	},
+	"ignoreList_title": {
+		"message": "Ignorierliste",
+		"description": ""
+	},
+	"ignorelistDomain": {
+		"message": "verschweige Domain",
+		"description": ""
+	},
+	"ignorelistURL": {
+		"message": "ignoriere URL",
+		"description": ""
+	},
+	"inputIgnoreDomain": {
+		"message": "Geben Sie die Domain ein, die zur Ignorierliste hinzugefügt werden soll:",
+		"description": ""
+	},
+	"inputWhitelistDomain": {
+		"message": "Geben Sie die URL RegExp ein, die erlaubt werden soll:",
+		"description": ""
+	},
+	"inputWhitelistURL": {
+		"message": "Geben Sie die Domain ein, die erlaubt werden soll:",
+		"description": ""
+	},
+	"settings": {
+		"message": "Einstellungen",
+		"description": ""
+	},
+	"showCallingFile_description": {
+		"message": "",
+		"description": ""
+	},
+	"showCallingFile_title": {
+		"message": "Aufrufende Datei anzeigen",
+		"description": ""
+	},
+	"showCompleteCallingStack_description": {
+		"message": "",
+		"description": ""
+	},
+	"showCompleteCallingStack_title": {
+		"message": "Kompletten Aufrufestack anzeigen",
+		"description": ""
+	},
+	"showNotifications_description": {
+		"message": "Benachrichtigungen anzeigen, wenn der Blockiermodus auf \"Auslese-API vortäuschen\" gesetzt ist.",
+		"description": ""
+	},
+	"showNotifications_title": {
+		"message": "Benachrichtigungen anzeigen",
+		"description": ""
+	},
+	"notificationDisplayTime_description": {
+		"message": "Anzahl der Sekunden, die die Benachrichtigungen angezeigt werden sollen. (Null eingeben, um die Benachrichtigungen nicht automatisch zu schließen.)",
+		"description": ""
+	},
+	"notificationDisplayTime_title": {
+		"message": "Benachrichtigungsanzeigezeit",
+		"description": ""
+	},
+	"sourceOutput": {
+		"message": "Aufrufende Datei",
+		"description": ""
+	},
+	"stackEntryOutput": {
+		"message": "{url} Zeile {line} Spalte {column}",
+		"description": ""
+	},
+	"stackList_description": {
+		"message": "JS-Dateien, die die <canvas>-API verwenden dürfen. Die Angabe muss hier im JSON-Format vorliegen. Beispiel: [{\"url\": \"http://domain/datei1.js\"}, {\"url\": \"http://domain/datei2.js\", \"line\": 1, \"column\": 4, \"stackPosition\": -3}]",
+		"description": ""
+	},
+	"stackList_title": {
+		"message": "Dateispezifische Whitelist",
+		"description": ""
+	},
+	"whiteList_description": {
+		"message": "Domänen oder URLs, die die <canvas>-API verwenden dürfen. Mehrere Einträge müssen durch ein Komma getrennt werden.",
+		"description": ""
+	},
+	"whiteList_title": {
+		"message": "Whitelist",
+		"description": ""
+	},
+	"whitelistDomain": {
+		"message": "erlaube Domain",
+		"description": ""
+	},
+	"whitelistURL": {
+		"message": "erlaube URL",
+		"description": ""
+	},
+	
+	"inspectImage": {
+		"message": "Bild betrachten",
+		"description": ""
+	},
+	"storeImageForInspection_title": {
+		"message": "Bild für Betrachtung speichern",
+		"description": ""
+	},
+	"storeImageForInspection_description": {
+		"message": "Aktiviert die Speicherung des Inhaltes der vorgetäuschten Canvas.\nACHTUNG: Dies kann zu einem hohen Speicherverbrauch führen.",
+		"description": ""
+	},
+	
+	"showReleaseNotes_title": {
+		"message": "Versionsinformationen",
+		"description": ""
+	},
+	"showReleaseNotes_description": {
+		"message": "",
+		"description": ""
+	},
+	"showReleaseNotes_label": {
+		"message": "Anzeigen",
+		"description": ""
+	},
+	
+	"logLevel_title": {
+		"message": "Aufzeichnungslevel",
+		"description": ""
+	},
+	"logLevel_description": {
+		"message": "Für eine Fehlersuche ist eine detaillierte Aufzeichnung der Addon-Aktivitäten hilfreich. Mit diesem Parameter kann der Grad der Detailliertheit dieser Aufzeichnung eingestellt werden.",
+		"description": ""
+	},
+	"logLevel_options.0": {
+		"message": "nichts",
+		"description": ""
+	},
+	"logLevel_options.1": {
+		"message": "Fehler",
+		"description": ""
+	},
+	"logLevel_options.25": {
+		"message": "Warnungen",
+		"description": ""
+	},
+	"logLevel_options.50": {
+		"message": "Nachrichten",
+		"description": ""
+	},
+	"logLevel_options.75": {
+		"message": "Notizen",
+		"description": ""
+	},
+	"logLevel_options.100": {
+		"message": "ausführlich",
+		"description": ""
+	},
+
+	"exportSettings_title": {
+		"message": "Einstellungen exportieren",
+		"description": ""
+	},
+	"exportSettings_description": {
+		"message": "",
+		"description": ""
+	},
+	"exportSettings_label": {
+		"message": "Anzeigen",
+		"description": ""
+	},
+	
+	"resetSettings_title": {
+		"message": "Einstellungen zurücksetzen",
+		"description": ""
+	},
+	"resetSettings_description": {
+		"message": "",
+		"description": ""
+	},
+	"resetSettings_label": {
+		"message": "Zurücksetzen",
+		"description": ""
+	},
+	"resetSettings_confirm": {
+		"message": "Sind Sie sicher, dass Sie alle Einstellungen zurücksetzen wollen?",
+		"description": ""
+	}
+}

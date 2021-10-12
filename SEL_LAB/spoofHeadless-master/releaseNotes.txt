@@ -1,0 +1,201 @@
+Version 0.4.4b:
+	known issues:
+		- force setting loadings may result in non working plugins or not opening direct image links. Use 0.4.4a instead or wait for Firefox 59 which provides the required API to solve this issue once and for all
+	
+	changes:
+		- if settings are not loaded fast enough the loading is forced
+
+Version 0.4.4a:
+	known issues:
+		- due to API blocking some web pages may break. Use 0.4.4 instead.
+	
+	changes:
+		- if settings are not loaded fast enough the loading is not forced but all APIs are blocked
+
+Version 0.4.4:
+	known issues:
+		- force setting loadings may result in non working plugins or not opening direct image links. Use 0.4.3a instead or wait for Firefox 59 which provides the required API to solve this issue once and for all
+	
+	changes:
+		- show white, black and ignore list again, but only in expert mode
+	
+	fixes:
+		- Firefox consumed 100% CPU and could not be closed
+		- Unknown setting breaks Firefox completely
+
+Version 0.4.3c:
+	known issues:
+		- force setting loadings may result in non working plugins or not opening direct image links. Use 0.4.3a instead or wait for Firefox 59 which provides the required API to solve this issue once and for all
+	
+	fixes:
+		- display of about:blank broken in Waterfox
+		- pinned tabs were not loaded and JS not executed in some cases
+	
+Version 0.4.3b:
+	known issues:
+		- force setting loadings may result in non working plugins or not opening direct image links. Use 0.4.3a instead or wait for Firefox 59 which provides the required API to solve this issue once and for all
+	
+	changes:
+		- if settings are not loaded fast enough the loading is forced
+	
+Version 0.4.3a:
+	known issues:
+		- due to API blocking some web pages may break. Use 0.4.3b instead.
+	
+	changes:
+		- hide white, black and ignore list as they can be done with the url specific settings. They are still present and working in the background.
+		- if settings are not loaded fast enough the loading is not forced but all APIs are blocked
+	
+	new features:
+		- reset settings
+		- new white random generator - creates output similar to Tor browser
+		- blockMode and showNotifications can now be chosen url specific
+		- new setting to ignore canvas with only few colors
+	
+	fixes:
+		- page action was not always showing
+		- waiting for settings created error messages in browser console
+		- do not show notifications when canvas faking was aborted
+
+Version 0.4.2
+	new features:
+		- added settings export and import
+	
+	fixes:
+		- settings are sometimes not fast enough loaded
+
+Version 0.4.1:
+	changes:
+		- improved design of the page action display
+		- Enabled Firefox ESR
+		- persistent random generator data is always stored in the settings but cleared on restart if the store flag is not set
+		- cleaned up the options page
+	
+	new features:
+		- setting to set an interval to clear the persistent random generator data
+		- setting for the ask deny mode
+		- ask only once can now also combine the API-types
+	
+	fixes:
+		- unnecessary check for context type in getImageData broke websites
+		- getContext was not asked in ask mode.
+
+Version 0.4.0.2:
+	fixes:
+		- some web pages were still broken with specific settings (e.g. twitch.tv)
+		- webGl was not faked any more
+
+Version 0.4.0.1:
+	fixes:
+		- some web pages are broken (e.g. twitch.tv)
+
+Version 0.4.0:
+	changes:
+		- switched to webExtension
+		- notifications are now done via page action
+		- minimal and maximal fake size are now respected in all fakeable functions
+		- fake readout now fakes one pixel at once and no longer one single channel
+		- new icon (special thanks to Thorin-Oakenpants)
+	
+	new features:
+		- information of all fake events in one tab are visible
+		- settings page now only shows settings that are useful within the given settings set
+		- new preferences:
+			* minimal fake size
+			* setting to enable the inspection of the content of the faked canvas
+			* new random number generator "constant"
+			* setting to not fake the most frequent colors in a canvas
+			* setting to enable canvas cache
+			* setting to hide expert settings
+			* setting to control if the alpha channel should be faked as well
+	
+	fixes:
+		- ask mode did not work for input types
+		- allow page scripts to overwrite the faked funtions
+		- getImageData also faked when using fakeInput mode
+
+Version 0.3.8:
+	new features:
+		- added embedded WebExtension to store the preferences for the transition
+	
+	fixes:
+		- prevented error when canvas has size zero
+		- frame script was not loaded in the first tab that was restored from the last session
+		- prevented error when wrong object is passed to the faked functions
+
+Version 0.3.7:
+	new features:
+		- data for persistent random number generator can be stored
+	
+	fixes:
+		- fake at input was broken
+		- did not work at all in Firefox 45.7.0 (ESR)
+		- disabled WebGL created error
+		- ask for permission was broken
+
+Version 0.3.6:
+	changes:
+		- only last bit of image values are changes also in non persistent mode
+		- removed default entry in white list
+	
+	fixes:
+		- faking webGL
+		- added readPixels for webGL2
+		- removed error message when notification can not be closed
+		- about:blank pages are treated with respect to the opening page
+		- removed memory leak
+		- persistent rnd same for all tabs/windows with e10s enabled
+
+Version 0.3.5
+	new features:
+		- improved performance when canvas bigger than maxSize.
+	
+	fixes:
+		- German translations
+		- Fennec stopped working in version 50
+
+Version 0.3.4:
+	changes:
+		- different fake modes show independent notifications
+	
+	fixes:
+		- bug in readPixels (prevented Google Street View to work)
+		- performance issues
+		- German translations
+
+Version 0.3.3:
+	changes:
+		- switching of the mode, white- and black-listing only affects new loaded pages
+	
+	new features:
+		- auto close of the notifications (preference)
+		- button to show the release notes
+	
+	fixes:
+		- "about:"-tabs could not be dragged
+		- performance issues
+
+Version 0.3.2:
+	new features:
+		- "fake at input" mode
+		- fake notifications only show up when something is faked
+	
+	fixes:
+		- fake notifications did not show always when something was faked
+		- ECMA 2016 compliant
+		- function signature for faked functions could not be read
+
+Version 0.3.1:
+	new features:
+		- added fennec support
+		- faster faking performance
+		- new preferences:
+			* disabling faking in getImageData for big canvas
+			* persistent random number supply
+	
+	fixes:
+		- ask for permission failed on prototype
+
+Version 0.3.0:
+	new features:
+		- e10s ready

@@ -1,0 +1,104 @@
+1634055338201	geckodriver	INFO	Listening on 127.0.0.1:35473
+1634055340165	geckodriver::marionette	INFO	Starting browser /root/EXTRA/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=750", "--height=1334"]
+1634055376235	Marionette	INFO	Listening on port 43733
+1634055377383	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionContent.jsm -> moz-extension://0b88011e-3799-49cd-a8df-69f36e891b3a/injected-javascript.js, line 704: SyntaxError: expected property name, got '...'
+JavaScript error: resource:///modules/E10SUtils.jsm, line 151: TypeError: aURI is null
+JavaScript error: resource:///modules/E10SUtils.jsm, line 151: TypeError: aURI is null
+JavaScript error: https://redirectingsoon.blogspot.com/2021/10/redirect-to-new-ad-1.html, line 2640: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript error: https://redirectingsoon.blogspot.com/js/cookienotice.js, line 170: SecurityError: The operation is insecure.
+JavaScript error: resource:///modules/E10SUtils.jsm, line 151: TypeError: aURI is null
+JavaScript error: https://www.gstatic.com/recaptcha/releases/qljbK_DTcvY1PzbR7IG69z1r/recaptcha__en.js, line 68: TypeError: g.Z is null
+Gdk-Message: 18:17:51.519: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+[Child 574336] WARNING: pipe error (14): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1634055523374	geckodriver	INFO	Listening on 127.0.0.1:45687
+1634055525267	geckodriver::marionette	INFO	Starting browser /root/EXTRA/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=2048", "--height=1536"]
+1634055540189	Marionette	INFO	Listening on port 44235
+1634055540304	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionContent.jsm -> moz-extension://a6dacd63-e6a1-43ee-b10a-6d7676f72e58/injected-javascript.js, line 704: SyntaxError: expected property name, got '...'
+JavaScript error: resource:///modules/E10SUtils.jsm, line 151: TypeError: aURI is null
+JavaScript error: https://redirectingsoon.blogspot.com/2021/10/redirect-to-new-ad-1.html, line 2640: InvalidAccessError: A parameter or an operation is not supported by the underlying object
+JavaScript error: https://redirectingsoon.blogspot.com/js/cookienotice.js, line 170: SecurityError: The operation is insecure.
+JavaScript error: resource:///modules/E10SUtils.jsm, line 151: TypeError: aURI is null
+JavaScript error: resource:///modules/E10SUtils.jsm, line 151: TypeError: aURI is null
+JavaScript warning: https://static.arc.io/widget/js/core-legacy.js?6c8af04, line 0: Successfully compiled asm.js code (total compilation time 923ms; not stored in cache (too small to benefit))
+JavaScript error: https://static.arc.io/widget/js/core-legacy.js?6c8af04, line 4: Error: No WebRTC support.
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules-legacy.0808a71e.js, line 0: Successfully compiled asm.js code (total compilation time 21ms; not stored in cache (too small to benefit))
+Gdk-Message: 17:20:03.465: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+[Child 576037] WARNING: pipe error (14): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1634055713255	geckodriver	INFO	Listening on 127.0.0.1:40197
+1634055714411	geckodriver::marionette	INFO	Starting browser /root/EXTRA/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=1920", "--height=1080"]
+1634055718440	Marionette	INFO	Listening on port 38635
+1634055718597	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionContent.jsm -> moz-extension://80d4aa80-8fce-4ee3-88e1-3aca7b6a17dc/injected-javascript.js, line 704: SyntaxError: expected property name, got '...'
+JavaScript error: https://analytics.webgains.io/pvClk.min.js, line 1: SyntaxError: expected property name, got '...'
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+WebGL(0x7f083700d800)::ForceLoseContext
+JavaScript error: https://bc.game/static/js/main.39dc1c66.chunk.js, line 1: TypeError: invalid arguments
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://bc.game/static/js/pixi.cd2ffaaa.chunk.js, line 2: Error: WebGL: No further warnings will be reported for this WebGL context. (already reported 32 warnings)
+Gdk-Message: 11:23:19.560: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1634055928923	geckodriver	INFO	Listening on 127.0.0.1:58531
+1634055930095	geckodriver::marionette	INFO	Starting browser /root/EXTRA/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=2304", "--height=1440"]
+1634055935348	Marionette	INFO	Listening on port 37979
+1634055935505	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionContent.jsm -> moz-extension://8ab48a2b-81cc-46ca-8c11-3c80429f47ee/injected-javascript.js, line 704: SyntaxError: expected property name, got '...'
+JavaScript error: https://analytics.webgains.io/pvClk.min.js, line 1: SyntaxError: expected property name, got '...'
+JavaScript error: resource:///modules/E10SUtils.jsm, line 151: TypeError: aURI is null
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: https://csync.smilewanted.com/, line 75: TypeError: cookie_sync_url.replaceAll is not a function
+JavaScript error: resource:///modules/E10SUtils.jsm, line 151: TypeError: aURI is null
+JavaScript error: resource:///modules/E10SUtils.jsm, line 151: TypeError: aURI is null
+Gdk-Message: 18:27:00.055: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 18:27:00.063: /root/EXTRA/firefox-53.0b9/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
