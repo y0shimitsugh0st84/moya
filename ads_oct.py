@@ -183,11 +183,7 @@ def check_web(driver , uur):
 	print("###########################CHECK WEB DRIVER  CHECK#################################")
 	print("CHECK WEB DRIVER  CHECK .....")
 	driver.maximize_window()
-  try:
-
-
-
-
+	try:
 		print("web page working GET THE LINK !!!")
 		print("MY BTTTC !!!!!!", end='')
 		driver.get("https://wild-beauty.weebly.com/index.html")
